@@ -1,13 +1,33 @@
-th {
-	background-color: #04AA6D;
-  color: white;
+
+h1 {
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 6px #006E33;
+	text-transform: uppercase;
 }
+th {
+	font-family: 'Garamond', cursive;
+	background-color: #006E33;
+	font-size: 20px;
+}
+td {
+	font-size: 18px;
+	font-family: "Audiowide", sans-serif;
+}
+td.data:hover {
+	background-color: #65F803;
+	}
 body {
-	background-image: url("images/milkyway.jpg");
+	background-image: url("../images/milkyway.jpg");
+	background-repeat: repeat-x;
+	size: 20%;
 }
 td, th {
-	border: 1px solid;
+	border: 5px solid;
 	text-align: center;
+	color: white;
+	padding: 20px;
+	color: white;
   }
 img {
 	/*This section of the code is so that the image can have a circular crop around it.*/
