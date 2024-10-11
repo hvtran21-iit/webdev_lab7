@@ -1,0 +1,21 @@
+th {
+	background-color: #04AA6D;
+  color: white;
+}
+body {
+	background-image: url("images/milkyway.jpg");
+}
+td, th {
+	border: 1px solid;
+	text-align: center;
+  }
+img {
+	/*This section of the code is so that the image can have a circular crop around it.*/
+	width: 50%;
+	height: 50%;
+  border-radius: 50%;
+	/*This section of the code is so that the image can be centered.*/
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
