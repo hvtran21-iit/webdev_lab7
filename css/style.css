@@ -26,7 +26,6 @@ th.planets:hover, td.data:hover {
 body {
 	background-image: url("../images/milkyway.jpg");
 	background-repeat: repeat-x;
-	size: 20%;
 }
 td, th {
 	border: 5px solid;
@@ -38,9 +37,9 @@ td, th {
 .image:hover {
   width: 600px;
   height: 600px;
-  background: #00000;
+  background-color: #00000;
   transition-timing-function: ease-in; /*Not sure of proper way to do this.*/
-	filter: blur();
+	filter: blur(0px);
 	opacity: 100%;
 }
 img {
