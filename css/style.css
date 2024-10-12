@@ -28,11 +28,12 @@ body {
 	background-repeat: repeat-x;
 }
 td, th {
-	border: 5px solid;
+	border: 1px dotted;
 	text-align: center;
 	color: white;
 	padding: 20px;
 	color: white;
+	border-bottom: 1px solid #ddd;
 }
 .image:hover {
   width: 600px;
@@ -53,9 +54,6 @@ img {
   margin-right: auto;
 	opacity: 0.5;
 	filter: blur(3px);
-}
-table {
-  border: 15px solid;
 }
 #page-wrapper {
 	width: 960px;
