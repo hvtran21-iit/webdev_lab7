@@ -37,7 +37,7 @@ td, th {
 .image:hover {
   width: 600px;
   height: 600px;
-  background-color: #00000;
+  background-color: #000000;
   transition-timing-function: ease-in; /*Not sure of proper way to do this.*/
 	filter: blur(0px);
 	opacity: 100%;
