@@ -1,4 +1,3 @@
-
 h1 {
 	color: white;
 	text-align: center;
@@ -14,9 +13,12 @@ td {
 	font-size: 18px;
 	font-family: "Audiowide", sans-serif;
 }
-td.data:hover {
+td.header:hover {
+	color: #65F803;
+}
+th.planets:hover, td.data:hover {
 	background-color: #65F803;
-	}
+}
 body {
 	background-image: url("../images/milkyway.jpg");
 	background-repeat: repeat-x;
@@ -28,7 +30,15 @@ td, th {
 	color: white;
 	padding: 20px;
 	color: white;
-  }
+}
+.image:hover {
+  width: 600px;
+  height: 600px;
+  background: #00000;
+  transition-timing-function: ease-in; /*Not sure of proper way to do this.*/
+	filter: blur();
+	opacity: 100%;
+}
 img {
 	/*This section of the code is so that the image can have a circular crop around it.*/
 	width: 50%;
@@ -38,4 +48,9 @@ img {
 	display: block;
   margin-left: auto;
   margin-right: auto;
+	opacity: 0.5;
+	filter: blur(3px);
+}
+table {
+  border: 15px solid;
 }
